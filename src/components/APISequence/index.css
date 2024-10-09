@@ -1,0 +1,48 @@
+.api-sequence {
+  margin-bottom: 20px;
+}
+
+.api-sequence h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.api-field {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.api-field input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+.add-button,
+.save-button,
+.edit-button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:disabled {
+  background-color: #ccc;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.edit-button:hover {
+  background-color: #2196f3;
+}
